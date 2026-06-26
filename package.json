@@ -1,0 +1,13 @@
+{
+  "name": "scalp-trading-root",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": "20.x"
+  },
+  "scripts": {
+    "dev:backend": "cd backend && node server.js",
+    "dev:frontend": "cd frontend && npm run dev"
+  }
+}
